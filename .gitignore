@@ -99,3 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+*.tiff
+data/info.json
+data/example.py
+data/README.md
+data/output/events.out.tfevents.1519878784.19216811.local
+data/regions/regions.json
+data/test_regions/regions.json
+data/thumbnail.png
+prediction/_init.jpg
