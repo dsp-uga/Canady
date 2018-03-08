@@ -19,7 +19,7 @@ path_image=args.image_path
 path_mask=args.mask_path
 save_result_path=args.save_path 
 images = sorted(glob(path_image+'/*.tiff'))
-masks = sorted(glob(path_mask+'*/.tiff'))
+masks = sorted(glob(path_mask+'/*.tiff'))
 
 # Converting images and mask to numpy array
 imgs=[]
@@ -35,5 +35,5 @@ images_np = np.array(imgs)
 masks_np=np.array(msks)
 
 # save intermediate result to numpy array
-np.save(save_result_path+'trainingImages.npy', images_np)
+np.save(save_result_path+'/trainingImages.npy', images_np)
 np.save(save_result_path+'/trainingMask.npy',masks_np)
