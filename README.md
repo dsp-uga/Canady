@@ -6,7 +6,7 @@
 * Vibodh Fenani
 * Vyom Shrivastava
 
-## Techonology Used:
+## Technology Used:
 * Python
 
 * Apache Spark
@@ -32,5 +32,34 @@ Training and Testing Dataset can also be found on below website:
 
 ## Execution Steps
 
-The project requires the follwing techonogies to be installed.
+The project requires the following technologies to be installed.
 * Instructions to download and install Python can be found [here](https://www.python.org/).
+* Instructions to download and install Apache Spark can be found [here](https://spark.apache.org/docs/latest/).
+* Instructions to download and install Keras can be found [here](https://keras.io/).
+
+# NMF Flow
+
+* Use thunder library and import that in your code.
+* Load the testing dataset.
+* Create the algorithm with various parameters.
+* Fit the model in our algorithm.
+* Transform and merge the overlapping coordinates.
+* Save the output in desired format.
+* Goto [Wiki](https://github.com/dsp-uga/Canady/wiki/NMF_Thunder_Model) for more detailes.
+
+# Approaches we tried
+
+We used U-net and thunder extraction module for neuron segmentation.
+
+# Accuracy
+
+# References
+
+* http://neurofinder.codeneuro.org/
+* https://en.wikipedia.org/wiki/Non-negative_matrix_factorization
+* https://github.com/thunder-project/thunder-extraction
+* https://github.com/thunder-project
+* https://arxiv.org/pdf/1707.06314.pdf- Research paper for U-net
+
+
+
