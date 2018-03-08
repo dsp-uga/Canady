@@ -37,7 +37,7 @@ The project requires the following technologies to be installed.
 * Instructions to download and install Apache Spark can be found [here](https://spark.apache.org/docs/latest/).
 * Instructions to download and install Keras can be found [here](https://keras.io/).
 
-# NMF Flow
+## NMF Flow
 
 * Use thunder library and import that in your code.
 * Load the testing dataset.
@@ -47,13 +47,14 @@ The project requires the following technologies to be installed.
 * Save the output in desired format.
 * Goto [Wiki](https://github.com/dsp-uga/Canady/wiki/NMF_Thunder_Model) for more detailes.
 
-# Approaches we tried
+## Approaches we tried
 
 We used U-net and thunder extraction module for neuron segmentation.
 
-# Accuracy
+## Accuracy
+----to be filled
 
-# References
+## References
 
 * http://neurofinder.codeneuro.org/
 * https://en.wikipedia.org/wiki/Non-negative_matrix_factorization
@@ -61,5 +62,8 @@ We used U-net and thunder extraction module for neuron segmentation.
 * https://github.com/thunder-project
 * https://arxiv.org/pdf/1707.06314.pdf- Research paper for U-net
 
+## License
+
+This project is licensed under the MIT License - see the [License](https://github.com/dsp-uga/Canady/blob/master/LICENSE) file for details
 
 
