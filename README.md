@@ -119,6 +119,7 @@ We got the predicted masks for the images using unet which looks promising but w
 * https://github.com/thunder-project/thunder-extraction
 * https://github.com/thunder-project
 * https://arxiv.org/pdf/1707.06314.pdf- Research paper for U-net
+* Fast, Simple Calcium Imaging Segmentation with Fully Convolutional Networks https://arxiv.org/pdf/1707.06314.pdf
 
 ## License
 
