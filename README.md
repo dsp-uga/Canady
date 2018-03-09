@@ -30,6 +30,7 @@ Training and Testing Dataset can also be found on below website:
 [Neuro Finder website](http://neurofinder.codeneuro.org/)
 
 
+
 ## Execution Steps
 
 The project requires the following technologies to be installed.
@@ -46,7 +47,23 @@ The project requires the following technologies to be installed.
 * Fit the model in our algorithm.
 * Transform and merge the overlapping coordinates.
 * Save the output in desired format.
-* Goto [Wiki](https://github.com/dsp-uga/Canady/wiki/NMF_Thunder_Model) for more detailes.
+
+## NMF Accuracy Tuning per Dataset
+
+| DataSet         | chunk_size    |  k    |max_iteration|percentile|Accuracy|
+|----------------:|--------------:|------:|------------:|---------:|-------:|
+|neurofinder00.00 | 50*50         | 10    | 20          |95        |  3.0   |
+|neurofinder00.01 | 50*50         | 5     | 30          |95        |  3.1   |
+|neurofinder01.00 | 50*50         | 5     | 30          |95        |  3.4   |
+|neurofinder01.01 | 50*50         | 3     | 50          |95        |  3.1   |
+|neurofinder20.00 | 100*100       | 5     | 50          |99        |    3.5 |
+|neurofinder20.01 | 100*100       | 5     | 50          |99        |    3.3 |
+|neurofinder30.00 | 50*50         | 10    | 30          |95        |  3.0   |
+|neurofinder40.00 | 50*50         | 2     | 21          |98        |  2.98  |
+|neurofinder00.01 | 60*60         | 3     | 50          |95        |  3.20  |
+
+For more detais on parameter please refer [Wiki](https://github.com/dsp-uga/Canady/blob/master/LICENSE)
+    
 
 ## Approaches we tried
 
