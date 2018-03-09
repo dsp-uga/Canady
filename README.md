@@ -39,7 +39,16 @@ The project requires the following technologies to be installed.
 * Instructions to download and install Keras can be found [here](https://keras.io/).
 * Instructions to download and install Thunder and Thunder extraction can be found [here](https://github.com/thunder-project/thunder)
 
-## NMF Flow
+#### NMF
+To get all neuron regions, run the following:
+```
+$ python3 NMF_CombinedDataset
+```
+To get neurons for a single region:
+```
+$ python3 NMF_SingleDataset
+```
+#### NMF Flow
 
 * Use thunder library and import that in your code.
 * Load the testing dataset.
@@ -48,6 +57,23 @@ The project requires the following technologies to be installed.
 * Transform and merge the overlapping coordinates.
 * Save the output in desired format.
 
+#### Unet
+* Use independent neurons.py to get the mask and combined images
+```
+$ Python3 independent neurons.py
+```
+* Then use dataToNpArrays.py to generate numpy array files of images and dataset
+```
+$ python3 dataToNpArray --image_path \home\user\data\images --mask_path \home\user\data\masks  --save_path \home\user\results\
+```
+* Use unet.py to train model and to save model
+```
+$ python3 unet.py --mode train --image_path \home\user\data\images --mask_path \home\user\data\masks  --save_path \home\user\model\
+```
+* Use unet.py to test model and save predicted mask
+```
+$ python3 unet.py --mode predict --image_path \home\user\data\images --save_path \home\user\results\
+```
 ## NMF Accuracy Tuning per Dataset
 
 | DataSet         | chunk_size    |  k    |max_iteration|percentile|Accuracy|
@@ -83,7 +109,7 @@ For more detais on parameter please refer [Wiki](https://github.com/dsp-uga/Cana
 
 * Average Exclusion: 0.73288
 
-* Unet :
+### Unet :
 We got the predicted masks for the images using unet which looks promising but we were unable to extract coordinates. The images are uploaded in the output folder. 
 
 ## References
