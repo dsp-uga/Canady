@@ -21,7 +21,7 @@
 * Vibodh Fenani
    * Unet
    * README
-* Vyom Shrivastava- 
+* Vyom Shrivastava
   * U-net
   * Thunder
   * NMF
