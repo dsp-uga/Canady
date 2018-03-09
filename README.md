@@ -59,7 +59,7 @@ The project requires the following technologies to be installed.
 |neurofinder20.00 | 100*100       | 5     | 50          |99        |  3.5   |
 |neurofinder20.01 | 100*100       | 5     | 50          |99        |  3.3   |
 |neurofinder30.00 | 50*50         | 10    | 30          |95        |  3.0   |
-|neurofinder40.00 | 50*50         | 3     | 50          |95        |  3.02  |
+|neurofinder40.00 | 100*100       | 5     | 50          |97        |  3.3   |
 |neurofinder00.01 | 60*60         | 3     | 50          |95        |  3.20  |
 
 For more detais on parameter please refer [Wiki](https://github.com/dsp-uga/Canady/blob/master/LICENSE)
