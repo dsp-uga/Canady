@@ -11,19 +11,23 @@
 ## Contributions
 
 * Ailing Wang
-  * Initial Pre-Processing
-  * U-net 
+  * Removed Overlapping in neurons
+  * Generated mask for Unet
+  * Tried tf_unet package
+  * WIKI
 * Hiten Nirmal
-  * Thunder Extraction
-  * NMF-tweaking
+  * NMF Optimization
+  * improvement on NMF model
   * WIKI
   * README
 * Vibodh Fenani
-   * Unet
+   * Unet training and testing functionality
+   * NMF Optimization
    * README
+   * WIKI
 * Vyom Shrivastava
-  * U-net
-  * Thunder
-  * NMF
-  
+  * U-net model building 
+  * NMF base model
+  * WIKI
+  * NMF Optimization
   
