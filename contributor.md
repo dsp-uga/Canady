@@ -11,7 +11,8 @@
 ## Contributions
 
 * Ailing Wang
-  * Initial Pre-Processing, U-net 
+  * Initial Pre-Processing
+  * U-net 
 * Hiten Nirmal
   * Thunder Extraction
   * NMF-tweaking
