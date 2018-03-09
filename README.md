@@ -72,7 +72,7 @@ For more detais on parameter please refer [Wiki](https://github.com/dsp-uga/Cana
 3) Tried using tf_unet, a tensorflow pre-trained unet model but was not feasible for the requirement of the project.
 
 ## Accuracy
-###NMF : 
+### NMF : 
 * Total score: 3.20635
 
 * Average Precision: 0.9043
