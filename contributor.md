@@ -16,8 +16,8 @@
   * Tried tf_unet package
   * WIKI
 * Hiten Nirmal
-  * NMF Optimization
-  * improvement on NMF model
+  * Output Optimization
+  * Improvement on NMF model
   * WIKI
   * README
 * Vibodh Fenani
