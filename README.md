@@ -67,10 +67,24 @@ For more detais on parameter please refer [Wiki](https://github.com/dsp-uga/Cana
 
 ## Approaches we tried
 
-We used U-net and thunder extraction module for neuron segmentation.
+1) NMF to get neuron region coordinates using Thunder-Extraction
+2) Implemented Unet to segment the neurons in the image
+3) Tried using tf_unet, a tensorflow pre-trained unet model but was not feasible for the requirement of the project.
 
 ## Accuracy
-----to be filled
+* NMF : 
+Total score: 3.20635
+
+Average Precision: 0.9043
+
+Average Recall: 0.9335
+
+Average Inclusion: 0.63567
+
+Average Exclusion: 0.73288
+
+* Unet :
+We got the predicted masks for the images using unet which looks promising but we were unable to extract coordinates. The images are uploaded in the output folder. 
 
 ## References
 
