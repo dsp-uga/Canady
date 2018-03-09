@@ -36,6 +36,7 @@ The project requires the following technologies to be installed.
 * Instructions to download and install Python can be found [here](https://www.python.org/).
 * Instructions to download and install Apache Spark can be found [here](https://spark.apache.org/docs/latest/).
 * Instructions to download and install Keras can be found [here](https://keras.io/).
+* Instructions to download and install Thunder and Thunder extraction can be found [here](https://github.com/thunder-project/thunder)
 
 ## NMF Flow
 
